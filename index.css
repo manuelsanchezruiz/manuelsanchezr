@@ -1,0 +1,187 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35 55 red;
+}
+
+div.lado_izquierdo{
+    position:relative;
+    background: #2a4155;
+    padding: 40px;
+    
+}
+
+div.imgMia{
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+img{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%; 
+   object-fit: cover;
+}
+
+div.texto_perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+div.texto_perfil h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform:uppercase;
+    text-align:  center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+div.texto_perfil h2 span{
+font-size: 0.7em;
+font-weight: 300;
+
+}  
+
+div.informacion_per{
+     padding-top: 40px;
+}
+
+h3.titulo{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px ;
+}
+
+.informacion_per ul{
+    
+    position: relative;
+
+}
+
+.informacion_per ul li {
+    color: #fff;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+div .informacion_per ul li .incono{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    width: 30px;
+}
+
+div.lado_derecho{
+
+    position:relative;
+    background: #fff;
+    padding: 40px;
+    
+}
+
+div.perfil{
+    margin-bottom: 50px;
+}
+
+div.perfil:last-child {
+
+    margin-bottom: 0;
+
+}
+div.titulo2{
+   color:#000000;
+   text-transform:uppercase ;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+
+}
+
+p.perfil_tex{
+    color: #000000;
+
+}
+div.caja{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+div.estudiantil{
+    min-width: 300px;
+
+}
+
+div.caja .estudiantil h5{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+}
+
+div.caja .textcaj h4{
+
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+
+
+}
+
+div.textcaj h5{
+    text-transform: uppercase;
+    color: #a4acb1;
+    font-weight: 100;
+    font-size: 12px;
+
+}
+
+p.perfil_tex {
+    color: #545b5f;
+}
+
+div.caja .textcaj ul{
+
+    color: #545b5f;
+
+
+}
+
+div p.parrajotex2{
+    color: #545b5f;
+}
+
